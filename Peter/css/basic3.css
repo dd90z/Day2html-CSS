@@ -12,4 +12,18 @@ header {
 }
 
 body {
-    background-color: rgb(234, 234, 254);}
+    background-color: rgb(234, 234, 254);
+}
+
+.sidebar {
+    width: 125px; 
+    height: 666px; 
+    background: white; 
+    float: left; 
+    box-sizing: content-box; 
+    padding: 10px; 
+    padding-right: 20px;}
+
+main {
+    padding: 20px 200px;
+}
