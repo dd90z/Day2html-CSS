@@ -8,5 +8,8 @@ h1 {
 }
 
 header {
-    background-color: aquamarine;
+    background-color: rgb(103, 250, 201);
 }
+
+body {
+    background-color: rgb(234, 234, 254);}
