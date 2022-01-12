@@ -1,0 +1,12 @@
+h1 {
+    font-stretch: expanded;
+    font-weight: bolder;
+}
+
+.summary {
+    font-weight: bold;
+}
+
+header {
+    background-color: aquamarine;
+}
