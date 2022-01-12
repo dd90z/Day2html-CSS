@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="peru3232">
+
+    <title>CSS | Day1 | Basic 2</title>
+
+    <meta name="description" content="CSS | Day1 | Basic 2">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        h1, #second,  #third > p {
+            visibility: visible;    
+        }
+
+        #first p {
+            font-size: larger;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="left" id="first">
+        <div class="left" id="third">
+            <p>First p</p>
+            <span>
+                <h3>h3 in span</h3>
+                <p>p in span</p>
+            </span>
+        </div>
+        <div class="left" id="fourth">
+            <h1>this was h1</h1>
+            <form action="serverside.php" id="form1">
+                First name: <br>
+                <input type="text" name="firstname" value ="Peter"><br>
+                Last name: <br >
+                <input type="text" name="lastname" value="Rudolf"><br>
+            </form>
+        </div>
+    </div>
+    <div class="right" id="second">
+        <div class="right" id="fifth">
+            <p>the other p</p>
+        </div>
+        <div class="right" id="sixth">
+            <img src="images/nature-g4c8143e19_640.jpg" alt="picture">
+            <form action="serverside.php" id="form1">
+                Favourite sport: <br>
+                <input type="text" name="sports" value ="Snooker"><br>
+                Favourite beer: <br >
+                <input type="text" name="beer" value="'Bayernhalbe'"><br>
+            </form>
+
+        </div>
+    
+    </div>
+
+</body>
+</html>
